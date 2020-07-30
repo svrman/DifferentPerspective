@@ -13,7 +13,7 @@ def mousePoints(event, x, y, flags, params):
         print(circles)
 
 
-img = cv2.imread('1.png')
+img = cv2.imread('images/1.png')
 while True:
     if counter == 4:
         width, height = 250, 350
